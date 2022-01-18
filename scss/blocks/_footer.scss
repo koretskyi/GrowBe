@@ -1,0 +1,39 @@
+.footer {
+  padding: 106px 0 19px;
+}
+
+.footer-wrapper {
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-item {
+  max-width: 270px;
+  width: 100%;
+  p {
+    margin: 40px 0 8px;
+  }
+}
+
+.footer-item-title {
+  margin-bottom: 34px;
+}
+
+.footer-item-list {
+  padding-left: 20px;
+  li {
+    &::marker {
+      color: #f25822;
+    }
+  }
+}
+
+.footer-copy {
+  border-top: 1px solid #ccc;
+  text-align: center;
+}
+
+.footer-contacts {
+  list-style: none;
+  padding-left: 0;
+}

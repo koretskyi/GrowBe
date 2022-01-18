@@ -1,0 +1,55 @@
+.btn {
+  background: $orange-color;
+  border-radius: 30px;
+  border: none;
+  padding: 13px 35px;
+  color: #fff;
+  /* @include btn($orange-color, 13px 25px, #fff); */
+}
+
+.btn:hover {
+  color: #000;
+  transition: 1s;
+}
+
+.btn-menu {
+  padding: 8px 20px;
+}
+
+.btn-video {
+  border: none;
+  background: none;
+  margin-left: 27px;
+}
+
+.btn-video-circle {
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  vertical-align: middle;
+  border-radius: 50%;
+  border: 3px solid #ddd;
+  margin-right: 15px;
+  position: relative;
+}
+
+.btn-video-text {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.buttons-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.play-wrapper {
+  display: flex;
+}
+
+.play {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

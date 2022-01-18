@@ -1,0 +1,30 @@
+.promo {
+  padding: 100px 0;
+}
+
+.promo-wrapper {
+  max-width: 543px;
+  width: 100%;
+  position: relative;
+}
+
+.promo-wrapper::before {
+  content: "";
+  width: 770px;
+  height: 373px;
+  position: absolute;
+  top: -30px;
+  left: -150px;
+  background: url(../img/promo/element.svg);
+  z-index: -1;
+}
+
+.process {
+  width: 843px;
+}
+
+.promo-img {
+  position: absolute;
+  top: -100px;
+  right: -250px;
+}

@@ -1,0 +1,61 @@
+.brand-list {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  margin: 97px 0;
+}
+
+.solution {
+  background: #fafafa url(../img/solution/element.svg) center center/cover
+    no-repeat;
+}
+
+.solution-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.indicator {
+  padding: 100px 0;
+}
+
+.indicator-items {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 43px 0;
+  color: #666666;
+  border: 2px solid #eee;
+  .yellow {
+    background: #ffc700;
+  }
+
+  .red {
+    background: #f3602d;
+  }
+
+  .green {
+    background: #149211;
+  }
+}
+
+.indicator-item {
+  text-align: center;
+}
+
+.indicator-item-digit {
+  font-size: 70px;
+  line-height: 1.05;
+  font-weight: bold;
+}
+
+.indicator-item-text {
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.indicator-item-circle {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+}

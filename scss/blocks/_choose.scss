@@ -1,0 +1,44 @@
+.choose {
+  text-align: center;
+  padding: 100px 0;
+  background: #fafafa;
+}
+
+.choose h3 {
+  font-size: 45px;
+  font-weight: bold;
+}
+
+.choose-list {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+  margin-top: 55px;
+}
+
+.choose-item {
+  transition: 0.4s;
+}
+
+.choose-item-content {
+  padding: 0 30px 50px;
+}
+
+.choose-item:hover {
+  box-shadow: 15px 25px 60px -5px rgba(0, 0, 0, 0.1);
+}
+
+.choose-item img {
+  width: 100%;
+  height: 270px;
+  object-fit: contain;
+  margin-bottom: 25px;
+}
+
+.choose-item p {
+  margin: 22px 0 39px;
+}
+
+.box {
+  background: #000;
+}

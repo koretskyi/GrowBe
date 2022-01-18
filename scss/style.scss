@@ -1,0 +1,68 @@
+@import "base/vars";
+@import "base/bootstrap-reboot";
+@import "libs/icons";
+@import "libs/swiper";
+
+body {
+  overflow-x: hidden;
+}
+
+h1 {
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+h2 {
+  line-height: 1.15;
+  font-size: 45px;
+  margin-bottom: 20px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.text {
+  text-align: center;
+  margin: 17px 0 37px;
+  font-size: 20px;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.swiper-pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  span {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #ddd;
+    margin: 0 5px;
+  }
+  .swiper-pagination-bullet-active {
+    background: #f25822;
+    width: 11px;
+    height: 11px;
+  }
+}
+
+@import "blocks/container";
+@import "blocks/buttons";
+@import "blocks/animation";
+@import "blocks/header";
+@import "blocks/promo";
+@import "blocks/marketing";
+@import "blocks/advantages";
+@import "blocks/choose";
+@import "blocks/solution";
+@import "blocks/speed";
+@import "blocks/plans";
+@import "blocks/team";
+@import "blocks/clients";
+@import "blocks/news";
+@import "blocks/footer";

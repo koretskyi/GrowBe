@@ -1,0 +1,43 @@
+.clients {
+  text-align: center;
+  padding: 93px 0 100px;
+}
+
+.clients-slide {
+  padding: 25px 30px;
+  border: 2px solid #eee;
+  transition: 0.3s;
+  &:hover {
+    border: 2px solid #fff;
+    box-shadow: 15px 25px 60px -10px rgba(0, 0, 0, 0.1);
+  }
+}
+
+.clients-slide-text {
+  position: relative;
+  &::before {
+    content: "";
+    position: absolute;
+    width: 43px;
+    height: 30px;
+    top: -5px;
+    left: 50%;
+    z-index: -1;
+    transform: translateX(-50%);
+    background: url(../img/clients/quote.svg);
+  }
+}
+
+.clients-slide-data {
+  margin-top: 15px;
+  img {
+    margin-bottom: 10px;
+  }
+  span {
+    display: block;
+  }
+}
+
+.clients-elipses {
+  margin-top: 30px;
+}

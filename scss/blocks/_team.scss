@@ -1,0 +1,64 @@
+.team {
+  text-align: center;
+  padding: 86px 0 100px;
+}
+
+.team-text {
+  margin-bottom: 52px;
+}
+
+.team-cards-wrapper {
+  display: flex;
+  gap: 30px;
+}
+
+.team-card {
+  max-width: 270px;
+  width: 100%;
+  padding: 50px 10px;
+  border: 1px solid #eee;
+  background: #fff;
+  transition: 0.5s;
+  &:hover {
+    border: 1px solid #fff;
+    box-shadow: 15px 20px 50px rgba(0, 0, 0, 0.1);
+    span {
+      color: #f25822;
+    }
+  }
+
+  img {
+    margin-bottom: 15px;
+  }
+
+  p {
+    margin-bottom: 17px;
+  }
+}
+
+.team-card-name {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.social-items {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  list-style: none;
+
+  a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ccc;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    transition: 0.3s;
+    &:hover {
+      color: #fff;
+      background: #f25822;
+    }
+  }
+}

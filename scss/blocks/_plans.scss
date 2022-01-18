@@ -1,0 +1,39 @@
+.plans {
+  background: #fafafa;
+  text-align: center;
+  padding: 87px 0 130px;
+  height: 910px;
+  .btn {
+    padding: 13px 60px;
+  }
+}
+
+.plans-wrapper {
+  margin-top: 86px;
+  display: flex;
+  align-items: flex-start;
+  gap: 30px;
+}
+
+.plans-card {
+  background: white;
+  max-width: 370px;
+  width: 100%;
+  padding: 63px 0 70px;
+  transition: 0.5s;
+  &:hover {
+    padding: 100px 0 110px;
+    transform: translateY(-40px);
+  }
+}
+
+.plans-card-price {
+  font-size: 60px;
+}
+
+.plans-card-list {
+  list-style: none;
+  li {
+    margin-bottom: 15px;
+  }
+}
